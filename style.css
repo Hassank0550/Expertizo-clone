@@ -22,7 +22,7 @@
   padding: 0px 110px;
   position: sticky; 
   top: 0;
-  z-index: 1;
+  z-index: 10;
 }
 
 .logo img{
@@ -972,7 +972,7 @@ section-portfolio
 .blur-box3{
     background-color: black;
     width: 400px;
-    height: 75px;
+    height: 65px;
     position: absolute;
     top: 0%;
     left: 400px;
@@ -982,7 +982,7 @@ section-portfolio
 .blur-box4{
     background-color: black;
     width: 400px;
-    height: 75px;
+    height: 50px;
     position: absolute;
     bottom: 0%;
     left: 400px;
@@ -999,7 +999,6 @@ section-portfolio
     animation: slide 20s infinite; /* Slide animation */ 
 } 
 .flashcard-slide{
-    background-color: #012970;
     object-fit: cover;
     height: 550px;
     margin: 0px 30px;
@@ -1009,11 +1008,12 @@ section-portfolio
 
 
 .flashcard{
-    background-color: grey;
     width: 330px;
-    height: 530px;
+    height: 570px;
     display: flex;
     align-items: center;
+    box-shadow: 1px 1px 10px #444444;
+    border-radius: 10px;
 }
 .flashcard-wrap{
     padding: 10px;
@@ -1026,7 +1026,6 @@ section-portfolio
     color: rgb(255, 193, 7);
 }
 .card-desc-box{
-    background-color: antiquewhite;
     width: 80%;
     height: auto;
     margin: 0 auto;
